@@ -73,5 +73,26 @@ font-size: 40px;
 #failure .failure-text p i{
   color: #16D887;
 }
-
+#plane {
+  width: 1140px;
+  margin: 0 auto 130px;
+}
+#plane h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.card-container img{
+  margin-bottom: 16px;
+}
+.card-container h3{
+  margin-bottom: 16px;
+}
 
