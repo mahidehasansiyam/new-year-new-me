@@ -124,4 +124,63 @@ font-size: 40px;
   border-radius: 5px;
   cursor: pointer;
 }
+footer{
+  display: flex;
+  justify-content: center;
+  gap: 330px;
+  background-color: black;
+  height: 560px;
+}
+footer .left{
+  width: 485px;
+  color: #FFFFFF;
+  margin: auto 0;
 
+}
+footer .left h3{
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+footer .left .last{
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+footer .left .email , .phone{
+  margin-bottom: 16px;
+}
+footer .left .social-media{
+  display: flex;
+  gap: 16px;
+}
+
+footer .right{
+  width: 325px;
+  margin: auto 0;
+}
+footer .right h4{
+  font-size: 25px;
+  font-weight: semi-bold;
+  color: #FFFFFF;
+  margin-bottom: 31px;
+}
+footer .right input{
+  width: 325px;
+  height: 64px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  padding-left:20px ;
+  margin-bottom: 16px;
+}
+
+footer .right button{
+ color: #F15B22;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 20px 36px;
+  border-radius: 5px;
+  cursor: pointer;
+}
