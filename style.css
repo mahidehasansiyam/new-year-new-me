@@ -41,4 +41,37 @@ body {
  padding: 21px 25px;
  border: none;
  border-radius: 5px;
+ cursor: pointer;
 }
+#failure{
+  display: flex;
+  gap: 87px;
+  justify-content: center;
+  align-items: center;
+}
+#failure .failure-pic{
+  margin: 130px 0;
+}
+#failure .failure-text{
+  width: 416px;
+  margin: 370px 0 215px 0;
+  
+}
+#failure .failure-text h2{
+font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+#failure .failure-text .para{
+  font-size: 16px;
+  line-height: 26px;
+}
+#failure .failure-text p{
+  margin-bottom: 8px;
+  
+}
+#failure .failure-text p i{
+  color: #16D887;
+}
+
+
